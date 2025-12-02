@@ -6,14 +6,14 @@ import numpy as np
 import pandas as pd
 
 st.title("Web App")
-st.write("**これがstreamlitアプリ**")
+st.write("**テスト**")
 
 answer = st.button('Say hello')
 
 if answer == True:
      st.write('Why hello there')
 else:
-     st.write('Goodbye')
+     st.write('Zombie Location')
     
 data = {
     'lat': np.random.randn(100) / 100 + 35.68,
