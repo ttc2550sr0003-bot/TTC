@@ -8,10 +8,10 @@ import pandas as pd
 st.title("Web App")
 st.write("**テスト**")
 
-answer = st.button('Say hello')
+answer = st.button('Attack')
 
 if answer == True:
-     st.write('Why hello there')
+     st.write('Why Attack there')
 else:
      st.write('Zombie Location')
     
